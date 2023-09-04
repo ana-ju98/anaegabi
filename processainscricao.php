@@ -19,7 +19,7 @@
 
 
 $result_cadastro = "INSERT INTO usuarios (1SIM, 2NAO,3SIM,4NAO,5SIM,6NAO, 7SIM, 8NAO, 9SIM, 10NAO, 11SIM, 12NAO, TALVEZ, SOLTEIRO, CASADO, VIÚVA) 
-VALUES ('$1SIM', '$2NAO','$3SIM','$4NAO','$5SIM','$6NAO', '$7SIM', '$8NAO', '$9SIM', '$10NAO', '$11SIM', '$12NAO', '$TALVEZ', '$SOLTEIRO', '$CASADO', '$VIÚVA' )";    
+VALUES ('$1SIM', '$2NAO','$3SIM','$4NAO','$5SIM','$6NAO', '$7SIM', '$8NAO', '$9SIM', '$10NAO', '$11SIM', '$12NAO', '$TALVEZ', '$SOLTEIRO', '$CASADO', '$VIUVA' )";    
 
 $resultado_cadastro = mysqli_query($conn, $result_cadastro);
 $ultimo_id = mysqli_insert_id($conn);
