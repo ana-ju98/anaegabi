@@ -23,7 +23,8 @@
 <input type="datetime-local" name="datadenascimento" size="40" value="now()" min="1960-06-07T00:00" required><br></br>
 
 <h3><label>Endereço:</label>
-<input type="text" name="endereco" size="40" required minlength="5" maxlength="40"><br></br></h3>
+<input type="text" name="endereco" size="40" required minlength="5" maxlength="40"><input type="text" onkeyup="this.value = this.value.toUpperCase();">
+<br></br></h3>
 
 <h3><label>Bairro:</label>
 <input type="text" name="bairro" size="40" required minlength="5" maxlength="40"><br></br></h3>
